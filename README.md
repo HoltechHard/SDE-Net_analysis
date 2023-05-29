@@ -31,8 +31,11 @@ Original programming solution purposed by the researches in Pytorch. Was develop
 neural network architectures: Resnet, Resnet + MC-dropout and SDE-Net for classification using MNIST  
 and SVHN datasets and for regression using YearMSD dataset. All implementations use Pytorch.  
   * Implementation of loading data  
-    Files: MNIST.data_loader, SVHN.data_loader, YearMSD.data_loader  
+    Files: MNIST/data_loader.py, SVHN/data_loader.py, YearMSD/data_loader.py  
   * Implementation of model architecture  
+    Files: MNIST/models/* , SVHN/models/* , YearMSD/models/*  
   * Implementation training and testing for models  
+    Files for MNIST: MNIST/resnet_mnist.py, resnet_dropout_mnist.py, sdenet_mnist.py  
+    Files for SVHN: SVHN/
     
 
