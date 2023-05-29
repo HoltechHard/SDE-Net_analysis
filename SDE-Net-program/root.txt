@@ -1,0 +1,65 @@
+# linux command to generate the root of project-master folder
+holger2022@DESKTOP-HAT96CV:~$ tree /home/holger2022/SDE-Net-program
+
+/home/holger2022/SDE-Net-program
+├── LICENSE
+├── MNIST
+│   ├── calculate_log.py
+│   ├── data_loader.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-36.pyc
+│   │   │   ├── resnet.cpython-36.pyc
+│   │   │   ├── resnet_dropout.cpython-36.pyc
+│   │   │   └── sdenet_mnist.cpython-36.pyc
+│   │   ├── resnet.py
+│   │   ├── resnet_dropout.py
+│   │   └── sdenet_mnist.py
+│   ├── resnet_dropout_mnist.py
+│   ├── resnet_mnist.py
+│   ├── sdenet_mnist.py
+│   └── test_detection.py
+├── README.md
+├── SVHN
+│   ├── calculate_log.py
+│   ├── data_loader.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-36.pyc
+│   │   │   ├── __init__.cpython-37.pyc
+│   │   │   ├── resnet.cpython-36.pyc
+│   │   │   ├── resnet.cpython-37.pyc
+│   │   │   ├── resnet_dropout.cpython-36.pyc
+│   │   │   ├── resnet_dropout.cpython-37.pyc
+│   │   │   ├── sdenet.cpython-36.pyc
+│   │   │   ├── sdenet_mnist.cpython-36.pyc
+│   │   │   └── sdenet_mnist.cpython-37.pyc
+│   │   ├── resnet.py
+│   │   ├── resnet_dropout.py
+│   │   └── sdenet.py
+│   ├── resnet_dropout_svhn.py
+│   ├── resnet_svhn.py
+│   ├── sdenet_svhn.py
+│   └── test_detection.py
+├── YearMSD
+│   ├── DNN_mc.py
+│   ├── SDE_regression.py
+│   ├── calculate_log.py
+│   ├── data_loader.py
+│   ├── models
+│   │   ├── DNN.py
+│   │   ├── DNN_mcdropout.py
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── DNN.cpython-36.pyc
+│   │   │   ├── __init__.cpython-36.pyc
+│   │   │   └── sdenet.cpython-36.pyc
+│   │   └── sdenet.py
+│   ├── test_detection_mc.py
+│   └── test_detection_sde.py
+└── figure
+    └── illustration.png
+
+10 directories, 49 files
