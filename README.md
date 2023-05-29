@@ -15,20 +15,24 @@ The project have this files:
 Analysis of paper research titled: SDE-Net, Equipping Deep Neural Networks with uncertainty estimates (2020)  
 using standard structure of scientific method.  
 
-* Report (курсовая работа) of all parts of the research (format word and pdf)  
-Files: ++FinalReport_SDENet.docx and ++FinalReport_SDENet.pdf  
-* Original paper (format pdf)  
-Files: ++SDE-Net_Equipping DNN with uncertainty estimates.pdf  
-* Presentation (format ppt)  
-File: ++SDE-Net_presentation.pptx  
-* Experimental results (format word)  
-File: Experimental Results.docx  
-* Flux diagram of training process for SDE-Net (format jpg)  
-File: fluxdig_sde.jpg  
+  * Report (курсовая работа) of all parts of the research (format word and pdf)  
+    Files: ++FinalReport_SDENet.docx and ++FinalReport_SDENet.pdf  
+  * Original paper (format pdf)  
+    Files: ++SDE-Net_Equipping DNN with uncertainty estimates.pdf  
+  * Presentation (format ppt)  
+    File: ++SDE-Net_presentation.pptx  
+  * Experimental results (format word)  
+    File: Experimental Results.docx  
+  * Flux diagram of training process for SDE-Net (format jpg)  
+    File: fluxdig_sde.jpg  
 
 2. SDE-Net-program  
-Original programming solution purposed by the researches in Pytorch  
-
-* 
-Folder: MNIST
+Original programming solution purposed by the researches in Pytorch. Was developed experiments for 3  
+neural network architectures: Resnet, Resnet + MC-dropout and SDE-Net for classification using MNIST  
+and SVHN datasets and for regression using YearMSD dataset. All implementations use Pytorch.  
+  * Implementation of loading data  
+    Files: MNIST.data_loader, SVHN.data_loader, YearMSD.data_loader  
+  * Implementation of model architecture  
+  * Implementation training and testing for models  
+    
 
